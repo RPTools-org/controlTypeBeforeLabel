@@ -20,7 +20,7 @@ class ControlTypeBeforeLabelSettingsPanel(gui.SettingsPanel):
 		("0", _("Default")),
 		("rsc",
 		# Translators: control Type  and state before label announcement  
-		_("Type State Label")),
+		_("Role State Label")),
 		("sc", _("State Label")),
 	)
 
@@ -30,7 +30,7 @@ class ControlTypeBeforeLabelSettingsPanel(gui.SettingsPanel):
 
 	def makeSettings(self, sizer):
 		helper = gui.guiHelper.BoxSizerHelper(self, sizer=sizer)
-		lbl =  _("&Say control type and state label by changing their name (better for Braille)")
+		lbl =  _("&Say control role and state label by changing their name (better for Braille)")
 		self.sayByNameChangeChk = helper.addItem(wx.CheckBox(self, label=lbl))
 		curVal = config.conf['controlTypeBeforeLabel']['sayByNameChange'] 
 		self.sayByNameChangeChk.SetValue(curVal)
