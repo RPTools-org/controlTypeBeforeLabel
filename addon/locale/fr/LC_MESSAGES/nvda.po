@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunderbird+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-25 10:48+0200\n"
-"PO-Revision-Date: 2023-07-25 10:54+0200\n"
+"POT-Creation-Date: 2023-08-24 06:08+0200\n"
+"PO-Revision-Date: 2023-08-24 06:10+0200\n"
 "Last-Translator: Pierre-Louis R. <plr.listes@rptools.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -21,12 +21,12 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: buildVars.py:23
-msgid "Say    control type    before label"
+msgid "Say control before label"
 msgstr "Dire le type de contrôle avant son libellé"
 
 #: buildVars.py:26
-msgid "A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. The names  of types and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
-msgstr "Une extension flexible qui permet à NVDA d'annoncer le type et l'état des contrôles de l'interface graphique avant leur libellé. Les noms de type et d'état peuvent également être personnalisés. L'extension prend en charge les cases à cocher, les boutons radio et les éléments de menu à cocher ou radio."
+msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. The names of roles and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
+msgstr "Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des contrôles de l'interface graphique avant leur libellé. Les noms de rôle et d'état peuvent également être personnalisés. L'extension prend en charge les cases à cocher, les boutons radio et les éléments de menu à cocher ou radio."
 
 #: globalPlugins/controlTypeBeforeLabel.py:85
 msgid "Attention : Change only the values after the equal symbols"
@@ -42,22 +42,22 @@ msgstr "Affiche le dialogue des Paramètres de formatage des annonces pour le pr
 
 #: globalPlugins/controlTypeBeforeLabel.py:150
 msgid "Edit ini file of states and roles labels"
-msgstr "Modifier le fichier ini des libellés d'état et de type d'élément"
+msgstr "Modifier le fichier ini des libellés d'état et de rôle des contrôles."
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:20
 msgid "Default"
 msgstr "Défaut"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:23
-msgid "Type State Label"
-msgstr "Type Etat Libellé"
+msgid "Role State Label"
+msgstr "Rôle Etat Libellé"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:24
 msgid "State Label"
 msgstr "Etat Libellé"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:33
-msgid "&Say control type and state label by changing their name (better for Braille)"
+msgid "&Say control role and state label by changing their name (better for Braille)"
 msgstr "Dire le texte des contrôles en modifiant leur &nom (mieux adapté au Braille)"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:39
@@ -84,13 +84,13 @@ msgstr "stateBeforeCaption est l'ancien nom de controlTypeBeforeLabel. Elle sera
 msgid "stateBeforeCaption detected"
 msgstr "stateBeforeCaption détectée"
 
-#~ msgid "A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. It supports only checkboxes, radio buttons and checkable menu items."
-#~ msgstr "Une extension flexible qui permet à NVDA d'annoncer le type et l'état des éléments d'interface graphique avant leur libellé. Elle ne prend en charge que les cases à cocher, boutons radio et éléments de menu à cocher et radio."
+#~ msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. It supports only checkboxes, radio buttons and checkable menu items."
+#~ msgstr "Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des éléments d'interface graphique avant leur libellé. Elle ne prend en charge que les cases à cocher, boutons radio et éléments de menu à cocher et radio."
 
 #~ msgid "Say the state of the elements before their caption"
 #~ msgstr "Dire l'état des éléments avant leur libellé"
 
-#~ msgid "A flexible  add-on that allows NVDA to announces the type and state of the elements before their caption."
+#~ msgid "A flexible  add-on that allows NVDA to announces the role and state of the elements before their caption."
 #~ msgstr "Une extension flexible qui permet à NVDA d'annoncer le type et l'état des éléments avant leur libellé."
 
 #~ msgid "Type State Caption"
