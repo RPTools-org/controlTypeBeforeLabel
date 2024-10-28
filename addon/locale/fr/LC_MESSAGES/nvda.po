@@ -5,28 +5,39 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunderbird+\n"
+"Project-Id-Version: ControlTypeBeforeLabel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-24 06:08+0200\n"
-"PO-Revision-Date: 2023-08-24 06:10+0200\n"
+"POT-Creation-Date: 2024-10-27 09:33+0100\n"
+"PO-Revision-Date: 2024-10-27 09:34+0100\n"
 "Last-Translator: Pierre-Louis R. <plr.listes@rptools.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
 "X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: buildVars.py:23
-msgid "Say control before label"
+msgid "Say    control type    before label"
 msgstr "Dire le type de contrôle avant son libellé"
 
 #: buildVars.py:26
-msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. The names of roles and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
-msgstr "Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des contrôles de l'interface graphique avant leur libellé. Les noms de rôle et d'état peuvent également être personnalisés. L'extension prend en charge les cases à cocher, les boutons radio et les éléments de menu à cocher ou radio."
+msgid ""
+"A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. The names  of types and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items.\n"
+"More info on :\n"
+"https://www.rptools.org/access/?p=controltypebeforelabel"
+msgstr ""
+"Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des contrôles de l'interface graphique avant leur libellé. Les noms de rôle et d'état peuvent également être personnalisés. L'extension prend en charge les cases à cocher, les boutons radio et les éléments de menu à cocher ou radio.\n"
+"Plus d'infos sur :\n"
+"https://www.rptools.org/access/?p=controltypebeforelabel"
+
+#: buildVars.py:32
+msgid "https://www.rptools.org/access/?p=controltypebeforelabel"
+msgstr "https://www.rptools.org/access/?p=controltypebeforelabel"
 
 #: globalPlugins/controlTypeBeforeLabel.py:85
 msgid "Attention : Change only the values after the equal symbols"
@@ -76,13 +87,19 @@ msgstr "&Menus à cocher et radio :"
 msgid "Error writing file :\n"
 msgstr "Erreur d'enregistrement du fichier :\n"
 
-#: installTasks.py:17
+#: installTasks.py:18
 msgid "stateBeforeCaption is the old name of controlTypeBeforeLabel. It will be replaced by this new version if you accept otherwise, the installation will be cancelled."
 msgstr "stateBeforeCaption est l'ancien nom de controlTypeBeforeLabel. Elle sera remplacée par cette nouvelle version si vous acceptez sinon l'installation sera annulée."
 
-#: installTasks.py:19
+#: installTasks.py:20
 msgid "stateBeforeCaption detected"
 msgstr "stateBeforeCaption détectée"
+
+#~ msgid "Say control before label"
+#~ msgstr "Dire le type de contrôle avant son libellé"
+
+#~ msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. The names of roles and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
+#~ msgstr "Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des contrôles de l'interface graphique avant leur libellé. Les noms de rôle et d'état peuvent également être personnalisés. L'extension prend en charge les cases à cocher, les boutons radio et les éléments de menu à cocher ou radio."
 
 #~ msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. It supports only checkboxes, radio buttons and checkable menu items."
 #~ msgstr "Une extension flexible qui permet à NVDA d'annoncer le rôle et l'état des éléments d'interface graphique avant leur libellé. Elle ne prend en charge que les cases à cocher, boutons radio et éléments de menu à cocher et radio."
