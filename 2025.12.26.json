@@ -1,0 +1,29 @@
+{
+	"addonId": "controlTypeBeforeLabel",
+	"displayName": "Say    control type    before label",
+	"URL": "",
+	"description": "A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. The names  of types and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items.\nMore info on :\nhttps://www.rptools.org/access/?p=controltypebeforelabel",
+	"sha256": "feda0c5057bcee575cde7a1629b8d22e5939fb7f6adb47f18b94fcc3ec88c258",
+	"homepage": "https://www.rptools.org/access/?p=controltypebeforelabel",
+	"addonVersionName": "2025.12.26",
+	"addonVersionNumber": {
+		"major": 2025,
+		"minor": 12,
+		"patch": 26
+	},
+	"minNVDAVersion": {
+		"major": 2019,
+		"minor": 3,
+		"patch": 0
+	},
+	"lastTestedVersion": {
+		"major": 2025,
+		"minor": 3,
+		"patch": 1
+	},
+	"channel": "stable",
+	"publisher": "",
+	"sourceURL": "https://github.com/RPTools-org/controlTypeBeforeLabel",
+	"license": null,
+	"licenseURL": null
+}

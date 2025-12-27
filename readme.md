@@ -1,59 +1,61 @@
-# Say control type befor label
-
-Note: this page has been translated from French to English by Google Translate.
+# controlTypeBeforeLabel: Announce control type and state before its label
 
 * Author: Pierre-Louis Renaud;
-* URL: [Contact in French and English](https://www.rptools.org/NVDA-Thunderbird/toContact.html) ;
-<!-- * Download the [stable version][1] ; -->
-* Download the [Latest version on RPTools.org](https://www.rptools.org/?p=9200) ;
-* NVDA Compatibility: 2019.3 and above;
-<!-- * [Source code on GitHub][2] ; --> 
+* URL: [Contact](https://www.rptools.org/NVDA-Thunderbird/toContact.html) ;
+* This add-on can be installed from the NVDA add-on store;
+* NVDA compatibility: 2019.3 to 2025.x;
 
 ## Presentation
-This flexible add-on allows NVDA to announce the type and state of GUI controls before their label.
 
-For example, we will hear Checkbox checked before its label, which can be long.
-In dialogs with lots of checkboxes or radio buttons, this can greatly improve the efficiency of checking options or settings;
+This flexible add-on allows NVDA to announce the type and state of user interface elements before their label.
 
-In addition, the labels of controls types and states can be shortened. For "checkboxes", you can indicate "box", you will then hear: box checked.
+In dialogs with many check boxes or radio buttons, this can significantly improve the efficiency of checking options or settings;
 
-At this time, the add-on only supports checkboxes, radio buttons, checkable and radio menu items.
-Other types of controls  could be added later.
+In addition, the labels for element types and states can be shortened. For "check boxes", you could specify "Check", and you would then hear: "check checked".
 
-In addition, you can decide to use this add-on with settings specific to each application profile via its settings dialog.
+Currently, the add-on only supports check boxes, radio buttons, checkable menu items, and radio menu items.
+Other element types may be added later.
+
+Furthermore, you can decide to use this add-on with specific settings for each application profile via its settings dialog.
 
 Here is an example:
 
-checkbox checked, Say the text of the control by modifying their name (better for Braille), Alt+n,
+check box checked "Speak the text of elements by modifying their name (better suited for Braille)", Alt+n,
 
-Select the ad format from the items below:
+Select the announcement format for the elements below:
 
-Check Boxes and Radio Buttons: Collapsed Label State Type drop-down list Alt+c
+Check boxes and radio buttons: combo box "Type state label reduced" Alt+c
 
-Check and radio menus: drop-down list Type status reduced label Alt+m
+Check and radio menus: combo box "Type state label reduced" Alt+m
 
 OK Cancel
 
-Each drop-down list contains the following options:
+Each combo box contains the following options:
 
-* Default: the add-on does not change  the announcement for this type of control and in the current configuration profile;
-* Type State label : for example Checkbox checked Save configuration on exit, Alt+s;
-* State label : example: checked Save configuration on exit, Alt+s;
+* Default: the add-on does not intervene for this type of element and in the current configuration profile;
+* Type state label: for example "Check box checked Save configuration on exit", Alt+s;
+* State label: example: "checked Save configuration on exit", Alt+s;
 
-## Keyboard shortcuts
+## Keyboard Shortcuts
 
-These shortcuts, which can be modified via the Input gestures dialog, allow you to adjust the add-on to your best convenience.
+These shortcuts, which can be modified via the Input Gestures dialog, allow you to adjust the add-on to your best convenience.
 
-* Windows+$: displays the configuration dialog for the active profile.
-  This allows settings specific to each application. So be sure to first create a configuration profile for the application where you want the add-on to intervene. ;
-* Shift+Windows+$ : to customize the labels of states and control  types via notepad.
-  After installing controlTypeBeforeLabel, the add-on retrieves your system's standard labels and saves them directly to the ini file.
-  After sabving this file, you must restart NVDA or reload the add-ons.
-  To reset these labels to their original values, you can delete this ini file and then relaunch NVDA. It will be recreated automatically.
-  This settings file is common to all configuration profiles;
+* Windows+$: displays the configuration dialog for the active profile.<br>
+This allows for specific settings for each application. Therefore, make sure to first create a configuration profile for the application where you want the add-on to intervene.;
+* Shift+Windows+$: to customize state and element type labels via Notepad.<br>
+After installing "Control type Before label", the add-on retrieves the standard labels from your system and saves them directly into the ini file. <br>
+After modifying this file, you must restart NVDA or reload add-ons.<br>
+To reset these labels to their original values, you can delete this ini file and then restart NVDA. It will be recreated automatically.<br>
+This settings file is common to all configuration profiles;
 
-<!-- links section -->
+## Change Log
 
-[1]: https://github.com/RPTools-org/controlTypeBeforeLabel/releases/download/v2023.07.27/controlTypeBeforeLabel-2023.07.27.nvda-addon
+### Version 2025.12.25
 
-[2]: https://github.com/RPTools-org/controlTypeBeforeLabel/
+Fix by Chai ChaiMee, thanks to him:
+
+The control type and state are no longer announced at the end of the label when they are announced at the beginning;
+
+---
+
+Souhaitez-vous que je vérifie la cohérence de la terminologie technique avec les standards de l'interface NVDA en anglais ?
