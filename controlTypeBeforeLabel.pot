@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'controlTypeBeforeLabel' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'controlTypeBeforeLabel' '2026.02.25'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-06-29 14:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: addon\buildVars.py:23 buildVars.py:23
+msgid "Say    control type    before label"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: addon\buildVars.py:26 buildVars.py:26
+msgid ""
+"A flexible  add-on that allows NVDA to announces the type and state of the  "
+"GUI controls before their label. The names  of types and states can also be "
+"customized. The add-on supports checkboxes, radio buttons and checkable menu "
+"items.\n"
+"More info on :\n"
+"https://www.rptools.org/access/?p=controltypebeforelabel"
+msgstr ""
+
+#. URL for the add-on documentation support
+#: addon\buildVars.py:32 buildVars.py:32
+msgid "https://www.rptools.org/access/?p=controltypebeforelabel"
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#: addon\installTasks.py:18
+msgid ""
+"stateBeforeCaption is the old name of controlTypeBeforeLabel. It will be "
+"replaced by this new version if you accept otherwise, the installation will "
+"be cancelled."
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+#: addon\installTasks.py:20
+msgid "stateBeforeCaption detected"
+msgstr ""
+
+#: addon\globalPlugins\controlTypeBeforeLabel.py:91
+msgid "Attention : Change only the values after the equal symbols"
+msgstr ""
+
+#: addon\globalPlugins\controlTypeBeforeLabel.py:92
+msgid "Then save and restart NVDA."
+msgstr ""
+
+#: addon\globalPlugins\controlTypeBeforeLabel.py:210
+msgid "display settings dialog for the current profile"
+msgstr ""
+
+#: addon\globalPlugins\controlTypeBeforeLabel.py:216
+msgid "Edit ini file of states and roles labels"
+msgstr ""
+
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:20
+msgid "Default"
+msgstr ""
+
+#. Translators: control Type  and state before label announcement
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:23
+msgid "Role State Label"
+msgstr ""
+
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:24
+msgid "State Label"
+msgstr ""
+
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:33
+msgid ""
+"&Say control role and state label by changing their name (better for Braille)"
+msgstr ""
+
+#. Translators: Help message for a dialog.
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:39
+msgid "Select the format of the controls below :"
+msgstr ""
+
+#. print("announceFormatChoices : " + str(announceFormatChoices))
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:45
+msgid "&Checkboxes and radio buttons :"
+msgstr ""
+
+#: addon\globalPlugins\shared\controlTypeBeforeLabelSettings.py:49
+msgid "Check and radio &Menu items"
+msgstr ""
+
+#: addon\globalPlugins\shared\notifCtbl.py:118
+msgid "Error writing file :\n"
+msgstr ""
