@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. The names  of types and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items.\nMore info on :\nhttps://www.rptools.org/access/?p=controltypebeforelabel"""),
 	# version
-	"addon_version": "2026.02.25",
+	"addon_version": "2026.07.04",
 	# Author(s)
 	"addon_author": u"Pierre-Louis Renaud",
 	# URL for the add-on documentation support
