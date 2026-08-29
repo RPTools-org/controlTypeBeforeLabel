@@ -7,39 +7,56 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'controlTypeBeforeLabel' '2023.07.27'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-24 06:25+0200\n"
-"PO-Revision-Date: 2023-08-24 06:31+0200\n"
+"POT-Creation-Date: 2026-06-29 14:33+0300\n"
+"PO-Revision-Date: 2026-06-29 14:51+0300\n"
 "Last-Translator: Pierre-Louis R. <plr.listes@rptools.org>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: globalPlugins\n"
 
 #: buildVars.py:23
-msgid "Say control before label"
-msgstr ""
+msgid "Say    control type    before label"
+msgstr "Промовляти тип елемента керування перед міткою"
 
 #: buildVars.py:26
-msgid "A flexible  add-on that allows NVDA to announces the role and state of the  GUI controls before their label. The names of roles and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
+msgid ""
+"A flexible  add-on that allows NVDA to announces the type and state of the  "
+"GUI controls before their label. The names  of types and states can also be "
+"customized. The add-on supports checkboxes, radio buttons and checkable menu "
+"items.\n"
+"More info on :\n"
+"https://www.rptools.org/access/?p=controltypebeforelabel"
 msgstr ""
+"Гнучкий додаток, який дозволяє NVDA оголошувати тип і стан елементів "
+"керування графічним інтерфейсом перед їхніми мітками. Назви типів і станів "
+"також можна налаштовувати. Додаток підтримує прапорці, радіокнопки й пункти "
+"меню, які можна позначити.\n"
+"Більше інформації на:\n"
+"https://www.rptools.org/access/?p=controltypebeforelabel"
 
-#: globalPlugins/controlTypeBeforeLabel.py:85
+#: buildVars.py:32
+msgid "https://www.rptools.org/access/?p=controltypebeforelabel"
+msgstr "https://www.rptools.org/access/?p=controltypebeforelabel"
+
+#: globalPlugins/controlTypeBeforeLabel.py:91
 msgid "Attention : Change only the values after the equal symbols"
 msgstr "Увага: Змінюйте тільки значення після знака дорівнює"
 
-#: globalPlugins/controlTypeBeforeLabel.py:85
+#: globalPlugins/controlTypeBeforeLabel.py:92
 msgid "Then save and restart NVDA."
 msgstr "Після цього збережіть налаштування й перезапустіть NVDA."
 
-#: globalPlugins/controlTypeBeforeLabel.py:146
+#: globalPlugins/controlTypeBeforeLabel.py:210
 msgid "display settings dialog for the current profile"
 msgstr "показує діалог налаштувань для поточного профілю"
 
-#: globalPlugins/controlTypeBeforeLabel.py:150
+#: globalPlugins/controlTypeBeforeLabel.py:216
 msgid "Edit ini file of states and roles labels"
 msgstr "Редагувати ini-файл міток станів і ролей"
 
@@ -49,15 +66,18 @@ msgstr "Початково"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:23
 msgid "Role State Label"
-msgstr ""
+msgstr "Роль Стан Мітка"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:24
 msgid "State Label"
 msgstr "Мітка стану"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:33
-msgid "&Say control role and state label by changing their name (better for Braille)"
+msgid ""
+"&Say control role and state label by changing their name (better for Braille)"
 msgstr ""
+"&Змінити назви елементів керування та міток стану (для зручності читання "
+"шрифтом Брайля)"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:39
 msgid "Select the format of the controls below :"
@@ -69,28 +89,32 @@ msgstr "&Прапорці й радіокнопки:"
 
 #: globalPlugins/shared/controlTypeBeforeLabelSettings.py:49
 msgid "Check and radio &Menu items"
-msgstr "Елементи для позначення в &радіоменю"
+msgstr "Елементи вибору в меню (прапорці та радіокнопки)"
 
 #: globalPlugins/shared/notifCtbl.py:118
 msgid "Error writing file :\n"
 msgstr "Помилка запису файлу :\n"
 
-#: installTasks.py:17
-msgid "stateBeforeCaption is the old name of controlTypeBeforeLabel. It will be replaced by this new version if you accept otherwise, the installation will be cancelled."
-msgstr "stateBeforeCaption — стара назва controlTypeBeforeLabel. Її буде замінено на цю нову версію, якщо ви не погодитеся з цим, встановлення буде скасовано."
+#: installTasks.py:18
+msgid ""
+"stateBeforeCaption is the old name of controlTypeBeforeLabel. It will be "
+"replaced by this new version if you accept otherwise, the installation will "
+"be cancelled."
+msgstr ""
+"stateBeforeCaption — це стара назва для Промовляти тип елемента керування "
+"перед міткою. Вона буде замінена на нову версію, якщо ви погодитеся, інакше "
+"встановлення буде скасовано."
 
-#: installTasks.py:19
+#: installTasks.py:20
 msgid "stateBeforeCaption detected"
 msgstr "Виявлено stateBeforeCaption"
-
-#~ msgid "Say    control type    before label"
-#~ msgstr "Промовляти тип елемента керування перед міткою"
-
-#~ msgid "A flexible  add-on that allows NVDA to announces the type and state of the  GUI controls before their label. The names  of types and states can also be customized. The add-on supports checkboxes, radio buttons and checkable menu items."
-#~ msgstr "Гнучкий додаток, який дозволяє NVDA оголошувати тип і стан елементів керування графічним інтерфейсом перед їхніми мітками. Назви типів і станів також можна налаштовувати. Додаток підтримує прапорці, радіокнопки й пункти меню, які можна позначити."
 
 #~ msgid "Type State Label"
 #~ msgstr "Тип мітка стану"
 
-#~ msgid "&Say control type and state label by changing their name (better for Braille)"
-#~ msgstr "Показувати текстом типи &елементів керування й мітки стану, змінивши їхні назви (краще для шрифту Брайля)"
+#~ msgid ""
+#~ "&Say control type and state label by changing their name (better for "
+#~ "Braille)"
+#~ msgstr ""
+#~ "Показувати текстом типи &елементів керування й мітки стану, змінивши їхні "
+#~ "назви (краще для шрифту Брайля)"
